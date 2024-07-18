@@ -43,14 +43,14 @@ let
     owner = "OpenRCT2";
     repo = "OpenRCT2";
     rev = "v${openrct2-version}";
-    hash = "sha256-zaaVieU/hulc2G/F19diJug3xuj3ejn5ihnmKfkBDcQ=";
+    hash = "sha256-AZFJt1ZsYO07hHN9Nt+N95wTGfYPob/kZ7EkVVkUezg=";
   };
 
   objects-src = fetchFromGitHub {
     owner = "OpenRCT2";
     repo = "objects";
     rev = "v${objects-version}";
-    hash = "sha256-wKxWp/DSKkxCEI0lp4X8F9LxQsUKZfLk2CgajQ+y84k=";
+    hash = "sha256-XfVic6b5jB1P2I0w5C+f97vvWvCh2zlcWpaXGLOj3CA=";
   };
 
   openmsx-src = fetchFromGitHub {
